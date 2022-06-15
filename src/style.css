@@ -20,10 +20,9 @@ li {
   margin: 0;
   padding: 0;
   color: #846178;
-  margin: 0;
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 20px;
 }
 
 .weather-app-wrapper {
@@ -37,4 +36,28 @@ li {
   padding: 20px;
   border: 1px solid #ff69b4;
   border-radius: 5px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: #ff69b4;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 1px;
+}
+
+.units {
+  position: relative;
+  font-size: 14px;
+  font-weight: 100;
+  top: -32px;
 }
