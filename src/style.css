@@ -4,8 +4,8 @@ body {
 
 h1 {
   color: #ff69b4;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 28px;
+  font-weight: 200;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -19,7 +19,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #846178;
+  color: #fff;
   font-size: 16px;
   font-weight: 100;
   line-height: 20px;
@@ -29,21 +29,32 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.btn-primary {
+  background: #ff69b4;
+  border: 1px solid #fff;
+}
+
+.btn-primary:hover {
+  background: rgb(148, 106, 170);
+  border: 1px solid #fff;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .weather-app {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 20px auto 10px;
   padding: 20px;
   border: 1px solid #ff69b4;
   border-radius: 5px;
+  background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
 }
 
 .overview {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .weather-temperature img {
@@ -57,6 +68,7 @@ li:first-letter {
   font-size: 64px;
   font-weight: 300;
   line-height: 1px;
+  margin-top: 10px;
 }
 
 .units {
@@ -64,6 +76,14 @@ li:first-letter {
   font-size: 14px;
   font-weight: 100;
   top: -32px;
+}
+
+.fahrenheit-link {
+  text-decoration: none;
+}
+
+.celcius-link {
+  text-decoration: none;
 }
 
 .weather-temperature .active {
